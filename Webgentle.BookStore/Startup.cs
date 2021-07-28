@@ -32,7 +32,7 @@ namespace Webgentle.BookStore
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello First Modified Code!");
+                    await context.Response.WriteAsync("Hello code directly on the main line!");
                 });
             });
         }
